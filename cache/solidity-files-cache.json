@@ -1,0 +1,150 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/appinventiv/Desktop/DAO/contracts/DAO.sol": {
+      "lastModificationDate": 1668534096013,
+      "contentHash": "ffb262c5e4e938de56255623d3aa2767",
+      "sourceName": "contracts/DAO.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Token.sol",
+        "./Treasury.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DAO"
+      ]
+    },
+    "/home/appinventiv/Desktop/DAO/contracts/Token.sol": {
+      "lastModificationDate": 1668579671671,
+      "contentHash": "21ac5043a6e36eaff6a828ccf3cf9b47",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/appinventiv/Desktop/DAO/contracts/Treasury.sol": {
+      "lastModificationDate": 1668057784462,
+      "contentHash": "0be67ff56069b1926dcf3d2197b72d08",
+      "sourceName": "contracts/Treasury.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Treasury"
+      ]
+    },
+    "/home/appinventiv/Desktop/DAO/interfaces/IERC20.sol": {
+      "lastModificationDate": 1668579636023,
+      "contentHash": "3e550925df6b722d6b96fa708dd57410",
+      "sourceName": "interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
